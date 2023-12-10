@@ -4,42 +4,76 @@ body {
 }
 
 .navbar {
+  background-color: #fff;
   overflow: hidden;
-  background-color: bisque;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  gap: 20ch;
   padding: 2ch;
-  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 15pt;
+  box-shadow: 0 8px 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar p {
+  margin: 0;
+}
+
+.navbar-item-1 {
+  display: flex;
+  align-items: center;
+  gap: 1.8em;
 }
 
 .navbar-icon {
-  order: 0;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 2ch;
+  gap: 0.5em;
 }
 
 .navbar-icon-img {
-  width: 10ch;
+  width: 50px;
+  border-radius: 100%;
+}
+
+.navbar-text {
+  color: red;
+  font-weight: bold;
 }
 
 .navbar-links {
-  order: 1;
-  float: left;
-  text-align: center;
+  display: flex;
+  gap: 2.6em;
+  padding-left: 50px;
 }
 
-.navbar-button {
-  order: 2;
-  float: right;
-  text-align: center;
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar a:hover {
+  color: red;
+  transition: 0.12s;
+}
+
+.navbar-item-2 {
+  display: flex;
+  align-items: center;
+  gap: 2ch;
+}
+
+.navbar-item-2 button {
+  padding: 1ch 2ch;
+  background-color: red;
+  border: none;
+  color: #fff;
+
+  transition: background-color 0.5s;
+}
+
+.navbar-item-2 button:hover {
+  background-color: orange;
+  transition-timing-function: ease-in-out;
 }

@@ -1,45 +1,61 @@
-<head>
-  <title>Simple Website 1</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
-    rel="stylesheet"
-  />
-</head>
-<body>
-  <main class="main">
-    <div class="navbar">
-      <div class="navbar-icon">
-        <img class="navbar-icon-img" src="public/icon.png" />
-        <p class="navbar-text">Simple Web 1</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Website 1</title>
+    <meta name="viewport" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <div class="navbar">
+        <div class="navbar-item-1">
+          <div class="navbar-icon">
+            <img class="navbar-icon-img" src="public/icon.png" />
+            <p class="navbar-text">Product Hunt</p>
+          </div>
+          <input type="text" class="navbar-search" placeholder="Search..." />
+          <div class="navbar-links">
+            <a class="navbar-link" href="#">Products</a>
+            <a class="navbar-link" href="#">Categories</a>
+            <a class="navbar-link" href="#">Community</a>
+            <a class="navbar-link" href="#">Marketplace</a>
+            <a class="navbar-link" href="#">Advertise</a>
+            <a class="navbar-link" href="#">About</a>
+          </div>
+        </div>
+        <div class="navbar-item-2">
+          <a href="#" class="login-link">Login</a>
+          <button class="navbar-btn">Sign Up</button>
+        </div>
       </div>
-      <div class="navbar-links">
-        <a class="navbar-link" href="#">Link 1</a>
-        <a class="navbar-link" href="#">Link 2</a>
-        <a class="navbar-link" href="#">Link 3</a>
-        <a class="navbar-link" href="#">Link 4</a>
+      <div class="content">
+        <div class="content-intro">
+          <h1 class="content-title">Welcome to Simple-Web-1</h1>
+          <p class="content-text">
+            This is a simple webpage made only with html5 and css3!
+          </p>
+        </div>
+        <div class="content-body">
+          <p class="content-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Repudiandae quisquam nobis tempore fugiat, sapiente est impedit
+            vitae? Facilis harum sunt hic autem, modi sapiente. Itaque alias
+            earum accusantium neque voluptatem!
+          </p>
+        </div>
       </div>
-      <div class="navbar-button">
-        <button class="navbar-btn">Open</button>
-      </div>
-    </div>
-    <div class="content">
-      <div class="content-intro">
-        <h1 class="content-title">Welcome to Simple-Web-1</h1>
-        <p class="content-text">
-          This is a simple webpage made only with html5 and css3!
-        </p>
-      </div>
-      <div class="content-body">
-        <p class="content-text">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-          quisquam nobis tempore fugiat, sapiente est impedit vitae? Facilis
-          harum sunt hic autem, modi sapiente. Itaque alias earum accusantium
-          neque voluptatem!
-        </p>
-      </div>
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
+</html>
